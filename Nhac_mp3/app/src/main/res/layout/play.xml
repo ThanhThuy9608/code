@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorGreenYellow">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#AAAAAA">
+
+        <LinearLayout
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentStart="true">
+
+
+            <ImageButton
+                android:layout_width="56dp"
+                android:layout_height="54dp"
+                android:id="@+id/imageButtonBack"
+                android:layout_marginLeft="180dp"
+                android:background="@drawable/duongvien"
+
+                android:src="@drawable/nextlef"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButtonPlay1"
+                    android:background="@drawable/duongvien"
+                    android:src="@drawable/buttonroundplayicon4848" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButtonPause1"
+                    android:background="@drawable/duongvien"
+                    android:src="@drawable/buttonroundpauseicon"
+                    android:layout_alignBottom="@+id/imageButtonPlay1"
+                    android:layout_alignEnd="@+id/imageButtonPlay1" />
+            </RelativeLayout>
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonNext"
+                android:background="@drawable/duongvien"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/buttonroundnexticon4848" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
